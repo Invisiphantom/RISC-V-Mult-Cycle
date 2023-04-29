@@ -18,7 +18,7 @@ WSL、Code Runner、TerosHDL
 ## Contained Files:
 - WSL-Verilog.code-profile (My VSCode verilog-workspace profile)
 - ROM.txt (Binary RISC-V Instructions that will be read into InstructionMemory.v verilog module)
-- aech.v
+- arch.v
 - arch_tb.v
 - PC.v
 - InstructionMemory.v
