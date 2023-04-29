@@ -1,11 +1,11 @@
-# RISC-V-SIngle-Cycle
+# RISC-V-Mult-Cycle
 ## Supported ISA:
 - RV32I (without lui、auipc、ecall、ebreak)
 ## Reference Material:
 - 《COD》(RISC-V version)
 - [RISCV_CARD.pdf (sfu.ca)](https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/notebooks/RISCV/RISCV_CARD.pdf)
 - [Online RISC-V Assembler (lucasteske.dev)](https://riscvasm.lucasteske.dev/#)
-- [merledu/SIngle-Cycle-RISC-V-In-Verilog(github.com)](https://github.com/merledu/SIngle-Cycle-RISC-V-In-Verilog)
+- [Invisiphantom/RISC-V-SIngle-Cycle (github.com)](https://github.com/Invisiphantom/RISC-V-SIngle-Cycle)
 
 ## Environment(with profile below):
 - WSL2-Ubuntu22.04
@@ -18,6 +18,7 @@ WSL、Code Runner、TerosHDL
 ## Contained Files:
 - WSL-Verilog.code-profile (My VSCode verilog-workspace profile)
 - ROM.txt (Binary RISC-V Instructions that will be read into InstructionMemory.v verilog module)
+- aech.v
 - arch_tb.v
 - PC.v
 - InstructionMemory.v
@@ -31,12 +32,16 @@ WSL、Code Runner、TerosHDL
 - ALUControl.v
 - ALU.v
 - DataMemory.v
+- IF_ID.v
+- ID_EX.v
+- EX_MEM.v
+- MEM_WB.v
 
 ## SVG
 - **arch.v**
   
 
-![image](https://raw.githubusercontent.com/Invisiphantom/RISC-V-SIngle-Cycle/main/SVG/RISC-V-Single-Cycle.svg)
+![image](https://raw.githubusercontent.com/Invisiphantom/RISC-V-Mult-Cycle/main/SVG/arch.svg)
 ---
 - **Control.v**
   
