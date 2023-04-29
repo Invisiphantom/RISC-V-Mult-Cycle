@@ -41,7 +41,7 @@ WSL、Code Runner、TerosHDL
 - **arch.v**
   
 
-![image](https://raw.githubusercontent.com/Invisiphantom/RISC-V-Mult-Cycle/main/SVG/arch.svg)
+![image](https://raw.githubusercontent.com/Invisiphantom/RISC-V-Mult-Cycle/main/SVG/RISC-V-Mult-Cycle.svg)
 ---
 - **Control.v**
   
